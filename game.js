@@ -6,6 +6,7 @@ var started = false;
 
 $(".startButton").click(function(){
     if (!started){
+        
         $("h1").text("level " + level);
         newSequence();
         started=true;
