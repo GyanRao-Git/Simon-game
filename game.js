@@ -5,7 +5,6 @@ var level = 0;
 var started = false;
 
 $(".startButton").click(function(){
-    alert("key pressed");
     if (!started){
         $("h1").text("level " + level);
         newSequence();
